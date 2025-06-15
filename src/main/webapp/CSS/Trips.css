@@ -1,0 +1,21 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 May 2025, 8:42:49 PM
+    Author     : Ahmad
+*/
+
+.trips-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; padding: 1rem; }
+.trip-card { background: #fff; border-radius: .5rem; box-shadow: 0 2px 8px rgba(0,0,0,.1); padding: 1rem; display: flex; flex-direction: column; justify-content: space-between; }
+.route { font-size: 1.1rem; margin-bottom: .5rem; }
+.label { font-weight: bold; }
+.arrow { margin: 0 .5rem; }
+.times { display: flex; justify-content: space-between; margin-bottom: 1rem; }
+.trip-actions { display: flex; gap: .5rem; }
+.btn { flex: 1; padding: .5rem; border: none; border-radius: .25rem; cursor: pointer; font-size: .9rem; }
+.btn.estimate { background: #007bff; color: #fff; }
+.btn.buy { background: #28a745; color: #fff; }
+.btn:hover { opacity: .9; }
+.no-trips { padding: 2rem; text-align: center; color: #666; }
